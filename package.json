@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-competition",
+  "version": "1.0.0",
+  "description": "Template repository for NodeJS + TypeScript based backend coding competition",
+  "main": "index.js",
+  "author": "AMTIS",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "test": "jest --coverage=true --json --outputFile=./reports/test-results.json",
+    "test:debug": "jest --runInBand --coverage=true --json"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "heap-js": "^2.5.0"
+  }
+}
